@@ -7,7 +7,7 @@ int dinamicArray()
     int* dinamic = new int[this -> count + 1];
     for (int i = 0; i < count; i++)
         dinamic[i] = this -> numbers[i];
-    delete this->numbers;
+    delete this -> numbers;
     return dinamic;
 }
 
