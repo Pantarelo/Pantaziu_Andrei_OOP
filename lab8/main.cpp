@@ -39,7 +39,7 @@ class Words_sort {
 int main() {
     std::ifstream f("file.txt");
     std::string file;
-    getline(f, file)
+    getline(f, file);
         for (auto& i : file) {
             i = tolower(i);
         }
